@@ -1,0 +1,21 @@
+{
+  "name": "postgres-rls-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dcc": "docker compose -f ./docker/docker-compose.yml",
+    "start": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "drizzle-orm": "^0.30.10",
+    "postgres": "^3.4.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "tsx": "^4.10.2"
+  }
+}
